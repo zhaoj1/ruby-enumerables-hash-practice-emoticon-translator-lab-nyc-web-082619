@@ -2,7 +2,7 @@ require "yaml"
 
 def load_library(file)
   library = { "get_meaning" = {}, "get_emoticon" = {} }
-  YAML.load(file).each do |meaning, array|
+  YAML.load(file).each do |meaning, data|
     
   end
 end
