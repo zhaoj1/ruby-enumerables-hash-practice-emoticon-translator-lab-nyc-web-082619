@@ -9,9 +9,9 @@ def load_library(path)
   library
 end
 
-def get_japanese_emoticon(path, emoticon)
+def get_japanese_emoticon(path, eng_emoticon)
     library = load_library(path)
-    result = library["get_emoticon"][emoticon]
+    result = library["get_emoticon"][eng_emoticon]
 end
 
 def get_english_meaning
