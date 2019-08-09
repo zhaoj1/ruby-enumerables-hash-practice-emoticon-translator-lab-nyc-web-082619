@@ -1,8 +1,6 @@
 require "yaml"
 
-def load_library(library)
-  hsh = YAML.load(library)
-  hsh.each do |emoticon, meaning|
+def load_library(file)
     
   end
 end
