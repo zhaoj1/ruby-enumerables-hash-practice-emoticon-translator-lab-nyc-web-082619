@@ -14,7 +14,8 @@ def get_japanese_emoticon(path, eng_emoticon)
     result = library["get_emoticon"][eng_emoticon]
     if result
       result
-      
+    else
+      "Emoticon not found."
 end
 
 def get_english_meaning
