@@ -1,6 +1,7 @@
 require 'yaml'
 
 def load_library(library)
+  YAML.load(library)
   
 end
 
