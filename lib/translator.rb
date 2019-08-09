@@ -2,7 +2,7 @@ require "yaml"
 
 def load_library(file)
   library = { "get_meaning" = {}, "get_emoticon" = {} }
-  YAML.load
+  YAML.load(file)
 end
 
 def get_japanese_emoticon
