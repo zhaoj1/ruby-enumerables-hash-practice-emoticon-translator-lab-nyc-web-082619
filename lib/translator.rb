@@ -4,6 +4,7 @@ def load_library(file)
   library = { "get_meaning" = {}, "get_emoticon" = {} }
   YAML.load(file).each do |meaning, array|
     
+  end
 end
 
 def get_japanese_emoticon
