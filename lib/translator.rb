@@ -3,7 +3,7 @@ require "yaml"
 def load_library(file)
   library = { "get_meaning" = {}, "get_emoticon" = {} }
   YAML.load(file).each do |meaning, data|
-    
+    english, japanese = 
   end
 end
 
