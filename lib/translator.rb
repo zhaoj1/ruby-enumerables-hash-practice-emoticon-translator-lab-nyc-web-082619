@@ -1,8 +1,10 @@
-require 'yaml'
+require "yaml"
 
 def load_library(library)
   hsh = YAML.load(library)
-  hsh
+  hsh.each do |emoticon, meaning|
+    
+  end
 end
 
 def get_japanese_emoticon
